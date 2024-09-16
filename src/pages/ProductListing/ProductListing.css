@@ -3,6 +3,7 @@
 .ProductListing-Container {
   padding: 20px;
   font-family: Arial, sans-serif;
+  min-height: calc(100vh - 90px);
 }
 
 .ProductListing-Container h1 {
