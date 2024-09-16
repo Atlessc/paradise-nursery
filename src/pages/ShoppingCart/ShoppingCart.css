@@ -1,0 +1,5 @@
+.ShoppingCart-Container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  min-height: calc(100vh - 130px);
+}
