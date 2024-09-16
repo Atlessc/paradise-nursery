@@ -1,0 +1,67 @@
+/* ProductDetails.css */
+
+.ProductDetails-Container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  min-height: calc(100vh - 130px);
+}
+
+.ProductDetails-Image {
+  flex: 1 1 300px;
+  max-width: 500px;
+  margin-right: 20px;
+}
+
+.ProductDetails-Image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ProductDetails-Info {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.ProductDetails-Info h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.ProductDetails-Price {
+  font-size: 1.5em;
+  color: #1A561A;
+  margin-bottom: 20px;
+}
+
+.ProductDetails-Description {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.ProductDetails-Info button {
+  padding: 10px 20px;
+  background-color: #1A561A;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ProductDetails-Info button:hover {
+  background-color: #164a16;
+}
+
+@media screen and (max-width: 768px) {
+  .ProductDetails-Container {
+    flex-direction: column;
+  }
+
+  .ProductDetails-Image,
+  .ProductDetails-Info {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
