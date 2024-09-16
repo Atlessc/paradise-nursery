@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   padding: 20px;
   font-family: Arial, sans-serif;
-  min-height: calc(100vh - 130px);
+  min-height: calc(100vh - 90px);
 }
 
 .ProductDetails-Image {
@@ -53,6 +53,8 @@
 .ProductDetails-Info button:hover {
   background-color: #164a16;
 }
+
+
 
 @media screen and (max-width: 768px) {
   .ProductDetails-Container {
