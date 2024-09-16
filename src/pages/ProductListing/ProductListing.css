@@ -1,0 +1,103 @@
+/* ProductListing.css */
+
+.ProductListing-Container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.ProductListing-Container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ProductCategory {
+  margin-bottom: 40px;
+}
+
+.ProductCategory h2 {
+  margin-bottom: 20px;
+}
+
+.ProductGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ProductCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: calc(33% - 20px); 
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.ProductCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ProductCard h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.ProductCard p {
+  color: #555;
+}
+
+.ProductCard .ButtonGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.ProductCard .ButtonGroup button {
+  flex: 1;
+  padding: 5px 10px;
+  background-color: #1A561A;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.ProductCard .ButtonGroup button:hover {
+  background-color: #164a16;
+}
+
+.ProductCard .ButtonGroup a button {
+  background-color: #555;
+}
+
+.ProductCard .ButtonGroup a button:hover {
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .ProductGrid {
+    gap: 10px;
+  }
+
+  .ProductCard {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 500px) {
+  .ProductGrid {
+    gap: 5px;
+  }
+
+  .ProductCard {
+    width: 100%;
+  }
+}
