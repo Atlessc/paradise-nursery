@@ -1,0 +1,144 @@
+/* LandingPage.css */
+
+.LandingPage-Container {
+  font-family: Arial, sans-serif;
+  min-height: calc(100vh - 90px);
+}
+
+/* Hero Section */
+.HeroSection {
+  background-image: url('/images/hero-banner.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.HeroSection h1 {
+  font-size: 3em;
+  color: #1A561A;
+}
+
+.HeroSection p {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.HeroSection button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #1A561A;
+}
+
+/* Featured Category */
+.FeaturedCategory {
+  padding: 40px 20px;
+}
+
+.FeaturedCategory h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ProductGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ProductCard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.ProductCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ProductCard h3 {
+  font-size: 1.2em;
+}
+
+.ProductCard p {
+  font-size: 1em;
+  color: #555;
+}
+
+.ProductCard button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #1A561A;
+}
+
+/* About Us Section */
+.AboutUsSection {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.AboutUsSection h2 {
+  margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+.TestimonialsSection {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.TestimonialsSection h2 {
+  margin-bottom: 20px;
+}
+
+.Testimonials blockquote {
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.Testimonials cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Newsletter Section */
+.NewsletterSection {
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.NewsletterSection h2 {
+  margin-bottom: 20px;
+}
+
+.NewsletterForm {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.NewsletterForm input[type="email"] {
+  padding: 10px;
+  font-size: 1em;
+  width: 250px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #333;
+  
+}
+
+.NewsletterForm button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 0 10px 10px 0;
+  background-color: #1A561A;
+}
