@@ -1,0 +1,316 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Foliage Plants",
+      "description": "Plants known for their lush and vibrant leaves.",
+      "image": "images/categories/foliage_plants.jpg",
+      "products": [
+        {
+          "id": 101,
+          "name": "Fiddle Leaf Fig",
+          "price": 29.99,
+          "image": "https://images.unsplash.com/photo-1614395371453-21ca8a11d3e7?q=80&w=1750&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A popular indoor tree with large, violin-shaped leaves."
+        },
+        {
+          "id": 102,
+          "name": "Monstera Deliciosa",
+          "price": 24.99,
+          "image": "https://images.unsplash.com/photo-1582893272956-e441d561b20a?q=80&w=1853&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Known for its unique split leaves and tropical appearance."
+        },
+        {
+          "id": 103,
+          "name": "Rubber Plant",
+          "price": 19.99,
+          "image": "https://images.unsplash.com/photo-1597523083254-ff036cf1e6df?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Features large, glossy leaves and is easy to care for."
+        },
+        {
+          "id": 104,
+          "name": "Areca Palm",
+          "price": 34.99,
+          "image": "https://images.unsplash.com/photo-1678823288830-e6976f430b6d?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A graceful palm with feathery fronds."
+        },
+        {
+          "id": 105,
+          "name": "ZZ Plant",
+          "price": 22.99,
+          "image": "https://images.unsplash.com/photo-1686893043847-c7cd7bada50f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "An attractive plant with shiny, oval leaves."
+        },
+        {
+          "id": 106,
+          "name": "Pothos",
+          "price": 14.99,
+          "image": "https://images.unsplash.com/photo-1630570345724-706a612c0425?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A trailing vine with heart-shaped leaves."
+        },
+        {
+          "id": 107,
+          "name": "Chinese Evergreen",
+          "price": 18.99,
+          "image": "https://images.unsplash.com/photo-1654855020356-18b1b49b09cc?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A hardy plant with patterned leaves."
+        },
+        {
+          "id": 108,
+          "name": "Bird's Nest Fern",
+          "price": 16.99,
+          "image": "https://succulentsbox.com/cdn/shop/products/Bird_sNestFern_1_5000x.jpg?v=1701244360&_gl=1*1ird2la*_up*MQ..&gclid=CjwKCAjw6JS3BhBAEiwAO9waF_dXlSY5tCGVPkmHiGdfqgcG-qbMht9D3dsA70W4FoYszh27eS20FhoCAvcQAvD_BwE",
+          "description": "Features bright green, wavy fronds."
+        },
+        {
+          "id": 109,
+          "name": "Philodendron",
+          "price": 15.99,
+          "image": "https://images.unsplash.com/photo-1630393343039-aee8da888d88?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A versatile plant with heart-shaped leaves."
+        },
+        {
+          "id": 110,
+          "name": "Calathea",
+          "price": 23.99,
+          "image": "https://images.unsplash.com/photo-1667395941567-9892435d0240?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Known for its strikingly patterned leaves."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Succulents",
+      "description": "Water-retaining plants adapted to arid climates.",
+      "image": "images/categories/succulents.jpg",
+      "products": [
+        {
+          "id": 201,
+          "name": "Aloe Vera",
+          "price": 15.99,
+          "image": "https://images.unsplash.com/photo-1711915498871-d0f2d47674c5?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A medicinal plant known for its soothing gel."
+        },
+        {
+          "id": 202,
+          "name": "Echeveria",
+          "price": 9.99,
+          "image": "https://images.unsplash.com/photo-1642778771770-07e2afdd5187?q=80&w=1673&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A popular rosette-forming succulent with colorful leaves."
+        },
+        {
+          "id": 203,
+          "name": "Jade Plant",
+          "price": 12.99,
+          "image": "https://images.unsplash.com/photo-1716154204431-d49977c91899?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A symbol of good luck with thick, glossy leaves."
+        },
+        {
+          "id": 204,
+          "name": "Haworthia",
+          "price": 8.99,
+          "image": "https://images.unsplash.com/photo-1639627369574-28d7fde9fe68?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A small succulent with striped, fleshy leaves."
+        },
+        {
+          "id": 205,
+          "name": "String of Pearls",
+          "price": 14.99,
+          "image": "https://images.unsplash.com/photo-1648070024741-43f8fa965966?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "An unusual succulent with bead-like leaves."
+        },
+        {
+          "id": 206,
+          "name": "Zebra Plant",
+          "price": 10.99,
+          "image": "https://images.unsplash.com/photo-1668073439400-87625723a0a0?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A striking plant with zebra-striped leaves."
+        },
+        {
+          "id": 207,
+          "name": "Burro's Tail",
+          "price": 13.99,
+          "image": "https://succulentsbox.com/cdn/shop/files/6_3_31816f6e-a69f-4d3b-9ed3-2c67e781c1d2_5000x.jpg?v=1700002249&_gl=1*1medbiv*_up*MQ..&gclid=CjwKCAjw6JS3BhBAEiwAO9waF-AB90OAuJtZe1C9X_9Vjk-vn0a6k5jr1TMjHwtOC0ppw6blniYH7xoC0asQAvD_BwE",
+          "description": "A trailing succulent with thick, fleshy leaves."
+        },
+        {
+          "id": 208,
+          "name": "Sedum Morganianum",
+          "price": 11.99,
+          "image": "https://images.unsplash.com/photo-1719716018714-95215042ddff?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Also known as Donkey Tail, a cascading succulent."
+        },
+        {
+          "id": 209,
+          "name": "Lithops",
+          "price": 7.99,
+          "image": "https://images.unsplash.com/photo-1609085799669-90eb94405afe?q=80&w=1659&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Known as living stones due to their unique appearance."
+        },
+        {
+          "id": 210,
+          "name": "Christmas Cactus",
+          "price": 16.99,
+          "image": "https://images.unsplash.com/photo-1708294375978-96e1bba2b2a3?q=80&w=1712&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A succulent that blooms during the holiday season."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Flowering Plants",
+      "description": "Plants that produce beautiful and colorful flowers.",
+      "image": "images/categories/flowering_plants.jpg",
+      "products": [
+        {
+          "id": 301,
+          "name": "Peace Lily",
+          "price": 22.99,
+          "image": "https://images.unsplash.com/photo-1616694547693-b0f829a6cf30?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "An elegant plant with white flowers and glossy leaves."
+        },
+        {
+          "id": 302,
+          "name": "Orchid",
+          "price": 35.99,
+          "image": "https://images.unsplash.com/photo-1586799958784-8687bc5d659f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Exotic flowers available in various colors."
+        },
+        {
+          "id": 303,
+          "name": "African Violet",
+          "price": 12.99,
+          "image": "https://u-mercari-images.mercdn.net/photos/m92111864806_1.jpg?width=1024&height=1024&format=pjpg&auto=webp&fit=crop&_=1718391526",
+          "description": "A small plant with vibrant purple flowers."
+        },
+        {
+          "id": 304,
+          "name": "Anthurium",
+          "price": 24.99,
+          "image": "https://images.unsplash.com/photo-1704114056547-0a36b098f636?q=80&w=1876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Known for its heart-shaped red flowers."
+        },
+        {
+          "id": 305,
+          "name": "Bromeliad",
+          "price": 19.99,
+          "image": "https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto,w_1400/v1605492538/vendor/4094/catalog/product/2/0/20151105081225_file_563bb829b6ec0.jpg",
+          "description": "A tropical plant with colorful bracts."
+        },
+        {
+          "id": 306,
+          "name": "Kalanchoe Blossfeldiana",
+          "price": 14.99,
+          "image": "https://images.unsplash.com/photo-1686463994578-51aca7ef9952?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A succulent with clusters of small flowers."
+        },
+        {
+          "id": 307,
+          "name": "Begonia",
+          "price": 16.99,
+          "image": "https://images.unsplash.com/photo-1719847241266-e318372b2e13?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Features asymmetrical leaves and bright flowers."
+        },
+        {
+          "id": 308,
+          "name": "Geranium",
+          "price": 13.99,
+          "image": "https://images.unsplash.com/photo-1629660183737-597b4d464539?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A classic flowering plant with a pleasant fragrance."
+        },
+        {
+          "id": 309,
+          "name": "Amaryllis",
+          "price": 25.99,
+          "image": "https://images.unsplash.com/photo-1639333708537-34d912d5aed4?q=80&w=1659&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Known for its large, trumpet-shaped flowers."
+        },
+        {
+          "id": 310,
+          "name": "Cyclamen",
+          "price": 17.99,
+          "image": "https://images.unsplash.com/photo-1629730352149-039d428c77ef?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "A winter-blooming plant with upswept petals."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Air Plants",
+      "description": "Plants that grow without soil, absorbing moisture and nutrients from the air.",
+      "image": "images/categories/air_plants.jpg",
+      "products": [
+        {
+          "id": 401,
+          "name": "Tillandsia Ionantha",
+          "price": 7.99,
+          "image": "https://i.etsystatic.com/17049632/r/il/d1d91b/3320062188/il_1588xN.3320062188_dkea.jpg",
+          "description": "A small air plant with vibrant red and green leaves."
+        },
+        {
+          "id": 402,
+          "name": "Tillandsia Xerographica",
+          "price": 14.99,
+          "image": "https://marisgardens.com/cdn/shop/files/IMG_9817.jpg?v=1713220881&width=713",
+          "description": "Known as the 'King of Air Plants' due to its large size."
+        },
+        {
+          "id": 403,
+          "name": "Tillandsia Bulbosa",
+          "price": 6.99,
+          "image": "https://www.air-plants.com/cdn/shop/products/Bulbosa_air_plant_cholla_wood_053ef7f9-d174-4dc2-874f-6c1327c21bdc_900x.jpg?v=1561568246",
+          "description": "Features curly, bulbous bases with thin leaves."
+        },
+        {
+          "id": 404,
+          "name": "Tillandsia Caput-Medusae",
+          "price": 8.99,
+          "image": "https://airplantshop.com/cdn/shop/products/IMG_3989-57_3c9e73f5-ac2b-40db-beda-395d4fbee6f8.jpg?v=1504630738&width=1080g",
+          "description": "Resembles Medusa's head with its twisting leaves."
+        },
+        {
+          "id": 405,
+          "name": "Tillandsia Stricta",
+          "price": 9.99,
+          "image": "https://tropiflora.com/cdn/shop/products/318-5_Tillandsia_stricta_720x.jpg?v=1542052644",
+          "description": "An air plant with soft, silvery leaves and pink blooms."
+        },
+        {
+          "id": 406,
+          "name": "Tillandsia Aeranthos",
+          "price": 7.49,
+          "image": "https://i.etsystatic.com/6916338/r/il/a4cb82/1255233335/il_1588xN.1255233335_i5n8.jpg",
+          "description": "Produces beautiful violet flowers when in bloom."
+        },
+        {
+          "id": 407,
+          "name": "Tillandsia Usneoides",
+          "price": 5.99,
+          "image": "https://i.etsystatic.com/6545629/r/il/8faba9/802242034/il_1588xN.802242034_n7f1.jpg",
+          "description": "Commonly known as Spanish Moss, ideal for hanging displays."
+        },
+        {
+          "id": 408,
+          "name": "Tillandsia Andreana",
+          "price": 12.99,
+          "image": "https://i.etsystatic.com/12874255/r/il/71faf5/1623815056/il_1588xN.1623815056_dsvh.jpg",
+          "description": "A rare species with needle-like leaves."
+        },
+        {
+          "id": 409,
+          "name": "Tillandsia Brachycaulos",
+          "price": 6.49,
+          "image": "https://mervynsonline.com/cdn/shop/products/13178920_large_52a66a52-36bc-4166-82a2-c14ba31aa659.png?v=1673017282&width=713",
+          "description": "Turns bright red when blooming."
+        },
+        {
+          "id": 410,
+          "name": "Tillandsia Fuchsii",
+          "price": 5.49,
+          "image": "https://i.etsystatic.com/12874255/r/il/828fea/3763897280/il_1588xN.3763897280_7437.jpg",
+          "description": "Features fine, hair-like leaves and delicate appearance."
+        }
+      ]
+    }
+  ]
+}
